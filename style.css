@@ -1,0 +1,137 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #e3cc1e;
+    background: #3c5c11;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border: 1px #3c5c11 solid;
+    border-radius: 5px;
+}
+
+/* Background */
+#premier, #quatrieme {
+    background: #8d887c;
+}
+
+
+/* Titre */
+h1 {
+    color: #3c5c11;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #f4c127;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.titre p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(19, 18, 18);
+}
+
+/* Navigation*/
+nav {
+    background: #92a258;
+    width: 850px;
+    height: 30px;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+nav a + a:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+/* Social Network*/
+.reseauxSociaux a img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.reseauxSociaux {
+    float: left;
+}
+
+/*Contact*/
+.contact img {
+    width: 20px;
+    height: 20px;
+}
+
+/*Resume*/
+.resume img{
+  width: 30%;
+  height: auto;
+  border-radius: 30%;
+  margin-left: 150px;
+}
+
+.presentation {
+  display: flex;
+}
+
+/* Compétences */
+.frontEnd, .backEnd, .design, .langue, .autres {
+    border: 1px #f4c127 solid;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: #f4c127;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.competences p {
+    text-align: center;
+
+}
+
+.competences {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+
+div.competences p:last-child {
+    font-weight: bold;
+}
+
+/* Experiences Formations Interets*/
+.title {
+  color: #3c5c11;
+  font-weight: bold;
+}
+
+.place {
+  font-weight: bold;
+}
+
+.experiences, .interets {
+  padding: 10px 0;
+}
