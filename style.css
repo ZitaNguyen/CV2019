@@ -52,13 +52,13 @@ nav {
     width: 850px;
     height: 30px;
 }
+
 nav a {
     text-decoration: none;
     font-weight: bold;
     color: whitesmoke;
     font-size: 20px;
     text-transform: uppercase;
-
 }
 
 nav a + a:before{
